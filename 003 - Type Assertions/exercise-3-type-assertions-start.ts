@@ -14,7 +14,7 @@ const population = getPopulation() as number;
 // Now you've added a type assertion, there's a type error in the code below.
 // Remove the code that is incorrect.
 
-//console.log(population.toUpperCase());
+//console.log(population.toUpperCase());  metodo stringa tentato su un number.
 
 console.log(population * 2);
 
