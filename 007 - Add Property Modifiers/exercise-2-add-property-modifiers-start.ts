@@ -43,7 +43,7 @@ const currencyData: Currency = {
     symbol: "€",
 };
 
-currencyData.name = "Gold";
+// currencyData.name = "Gold";  name è readonly
 
 currencyData.code = "GGG";
 
