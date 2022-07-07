@@ -19,7 +19,7 @@ const countryCurrency: CountryWithCurrency = ["Italy", "Euro", "EUR"];
 
 const countryLanguage: readonly [string, string] = ["Greece", "Greek"];
 
-countryLanguage.reverse();
+//countryLanguage.reverse(); <--- impossibile fare reverse di un readonly.
 
 console.log(countryLanguage);
 
