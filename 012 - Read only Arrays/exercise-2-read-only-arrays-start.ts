@@ -16,9 +16,9 @@ console.log(languages);
 // Use the readonly modifier and the array literal type syntax: readonly type[]
 // This will cause a type error. Remove the code that now has a type error.
 
-const currencies readonly string[] = ["NZD", "THB", "NGN", "EUR", "COP", "INR"];
+const currencies: readonly string[] = ["NZD", "THB", "NGN", "EUR", "COP", "INR"];
 
-currencies.reverse();
+//currencies.reverse(); impossibile reversare un array impostato come readonly
 
 console.log(currencies);
 
