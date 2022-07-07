@@ -18,7 +18,7 @@ let currency: null = null;
 
 let population: number = 47_450_795;
 
-let isSummer: boolean = false;
+let isSummer: false = false;
 
 let languages: string = "Spanish, English";
 

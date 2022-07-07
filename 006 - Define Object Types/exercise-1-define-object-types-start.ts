@@ -36,6 +36,7 @@ type Currency = {
     symbol: string
 }
 
+
 const currencyData: Currency = {
     name: "Euro",
     code: "EUR",
